@@ -1,0 +1,211 @@
+.App {
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./Utils/Interior\ Systems\ 737\ cabin\ 1920x1080.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+}
+
+#testimonial {
+  background-color: white;
+  margin-bottom: 0px !important;
+  width: 100vw !important;
+  margin-left: 0px !important;
+}
+
+.footer {
+  margin-top: auto;
+  bottom: 0;
+  background-color: black;
+}
+.card {
+  background-color: #ececee;
+  border-radius: 18px;
+  color: black !important;
+  float: left;
+  width: 100%;
+  margin-bottom: 5rem !important;
+  margin-top: 3rem !important;
+}
+
+.navbar-brand {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+#home {
+  background-color: #fff;
+}
+
+.about-text {
+  color: grey;
+  font-size: 1.2rem;
+  display: flex;
+  text-align: justify;
+}
+
+#testimonial h2 {
+  margin-top: 3rem !important;
+  border-bottom: solid 2px orange;
+  width: 50%;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+#service_heading {
+  border-bottom: solid 2px orange;
+  width: 50%;
+}
+
+#commentCards {
+  display: flex !important;
+  flex-direction: row !important;
+  margin-right: 1em !important;
+}
+
+#testimonialCard {
+  background-color: #fff !important;
+  border-color: darkblue;
+  margin: 18px !important;
+  margin-bottom: 4rem !important;
+  margin-right: 1em !important;
+}
+
+#comp-text {
+  color: rgba(244, 161, 6, 0.932);
+  font-size: 1.6em;
+}
+.heading_div_for_comments {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+@media (max-width: 1300px) {
+  #commentCards {
+    flex-direction: column !important;
+  }
+}
+
+.row {
+  max-width: 100vw !important;
+}
+
+#cart-page{
+  display: flex!important;
+  flex-direction: row!important;
+}
+
+#productsDiv{
+  min-width: 80vw!important;
+  max-width: 80vw!important;
+  border-right: 3px solid white!important;
+}
+
+#cartsDiv{
+  margin-left: 1em!important;
+  min-width: 18vw!important;
+  max-width: 18vw!important;
+}
+
+@media (max-width:730px){
+  #cart-page{
+    flex-direction: column-reverse!important;
+  }
+  #productsDiv{
+    border-right: 0px!important;
+    margin-left: 2.5em!important;
+  }
+  #cartsDiv{
+    margin-left: 2.5em!important;
+    min-width: 80vw!important;
+    max-width: 80vw!important;
+  }
+}
+
+
+#chats{
+  background-color: black;
+  color: white;
+  margin-top: 1em!important;
+  max-width: 24vw!important;
+  min-height: 81.3vh!important;
+  min-width: 24vw!important;
+}
+
+#chat{
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
+
+#chats .card-title{
+  border-bottom: 1px solid red;
+}
+
+#messages{
+  min-width: 75vw!important;
+  max-width: 75vw!important;
+  background-color: white;
+  margin-top: 1em!important;
+}
+
+#note{
+  border-bottom: 3px solid red;
+}
+
+#search{
+  min-width: 45vw!important;
+  max-width: 45vw!important;
+}
+
+#filter select{
+  min-width: 45vw!important;
+  max-width: 45vw!important;
+  min-height: 6vh!important;
+  max-height: 6vh!important;
+  margin-left: 5vw!important;
+}
