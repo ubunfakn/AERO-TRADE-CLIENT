@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AERO-TRADE-CLIENT/static/css/main.f6a8bfd2.css",
+    "main.js": "/AERO-TRADE-CLIENT/static/js/main.598fff18.js",
+    "static/js/787.dba80a51.chunk.js": "/AERO-TRADE-CLIENT/static/js/787.dba80a51.chunk.js",
+    "static/media/Interior Systems 737 cabin 1920x1080.jpg": "/AERO-TRADE-CLIENT/static/media/Interior Systems 737 cabin 1920x1080.2ab35cbb86369b876548.jpg",
+    "index.html": "/AERO-TRADE-CLIENT/index.html",
+    "main.f6a8bfd2.css.map": "/AERO-TRADE-CLIENT/static/css/main.f6a8bfd2.css.map",
+    "main.598fff18.js.map": "/AERO-TRADE-CLIENT/static/js/main.598fff18.js.map",
+    "787.dba80a51.chunk.js.map": "/AERO-TRADE-CLIENT/static/js/787.dba80a51.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6a8bfd2.css",
+    "static/js/main.598fff18.js"
+  ]
+}
